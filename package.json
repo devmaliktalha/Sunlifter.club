@@ -1,36 +1,36 @@
 {
-	"name": "sunlift",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@radix-ui/react-dialog": "^1.1.2",
-		"@reduxjs/toolkit": "^2.5.0",
-		"@stripe/react-stripe-js": "^3.1.1",
-		"@stripe/stripe-js": "^5.5.0",
-		"axios": "^1.7.9",
-		"clsx": "^2.1.0",
-		"cookies-next": "^4.1.1",
-		"firebase": "^11.0.1",
-		"firebase-admin": "^13.0.2",
-		"lucide-react": "^0.462.0",
-		"next": "15.1.2",
-		"react": "^19.0.0",
-		"react-datepicker": "^7.6.0",
-		"react-dom": "^19.0.0",
-		"react-hot-toast": "^2.4.1",
-		"react-icons": "^5.0.1",
-		"react-redux": "^9.2.0",
-		"stripe": "^17.5.0",
-		"tailwind-merge": "^2.2.2"
-	},
-	"devDependencies": {
-		"postcss": "^8",
-		"tailwindcss": "^3.4.1"
-	}
+  "name": "sunlift",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.5.0",
+    "axios": "^1.7.9",
+    "clsx": "^2.1.0",
+    "cookies-next": "^4.1.1",
+    "firebase": "^11.0.1",
+    "firebase-admin": "^13.0.2",
+    "lucide-react": "^0.462.0",
+    "next": "15.1.2",
+    "react": "^19.0.0",
+    "react-datepicker": "^7.6.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.2.0",
+    "stripe": "^17.5.0",
+    "tailwind-merge": "^2.2.2"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
 }
